@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- daisyui and tailwind links -->
+    <!-- tailwind link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#1111110D]">
+    <!-- header section st  -->
+    <section class="bg-[#F9F6E2]">
+      <!-- main container  -->
+      <div
+        class="flex flex-wrap flex-col items-center justify-center md:flex-row lg:flex-row px-6 text-center lg:gap-36"
+      >
+        <!-- left -->
+        <div class="space-y-4 max-w-[670px]">
+          <h2 class="text-3xl">---SALE FEVER---</h2>
+          <h1 class="text-[50px] font-bold">
+            Purchase TK 200 or above & get
+            <span class="text-[#E527B2]">20% off</span>
+          </h1>
+          <!-- btn section  -->
+          <div class="flex items-center justify-center pt-5 gap-2">
+            <p>Use Promo Code</p>
+            <button class="btn px-6 bg-[#E527B2] btn-primary">SELL200</button>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="flex items-center justify-center">
+          <img class="" src="images/Summer 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- header section end  -->
+
+    <!-- card section st here  -->
+    <section class="mt-[120px] container px-5 lg:mx-auto">
+      <!-- main container card  -->
+      <div class="flex flex-wrap flex-col md:flex-row md:justify-center  lg:flex-row  gap-1">
+        <!-- product card container  -->
+        <div class="w-[100%]  lg:w-[70%]">
+          <h2 class="text-4xl pb-6 font-semibold">Kitchenware</h2>
+          <!-- Kitchenware -->
+          <div class="flex flex-wrap flex-col lg:flex-row gap-6">
+            <!-- card one  -->
+            <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+              <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                <figure class="px-10 pt-10 pb-6">
+                  <img src="images/prod1.png" class="rounded-xl" />
+                </figure>
+              </div>
+              <div class="card-body items-center text-center">
+                <!-- star  -->
+                <div class="flex items-center gap-1">
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star2.png" alt="" />
+                  <img src="images/star2.png" alt="" />
+                </div>
+                <h2 class="card-title">K. Accessories</h2>
+                <h3><span>39.00</span> TK</h3>
+              </div>
+            </div>
+
+            <!-- card two  -->
+            <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+              <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                <figure class="px-10 pt-10 pb-6">
+                  <img src="images/prod2.png" class="rounded-xl" />
+                </figure>
+              </div>
+              <div class="card-body items-center text-center">
+                <!-- star  -->
+                <div class="flex items-center gap-1">
+                  <img src="images/star2.png " alt="" />
+                  <img src="images/star2.png " alt="" />
+                  <img src="images/star2.png " alt="" />
+                  <img src="images/star2.png " alt="" />
+                  <img src="images/star2.png" alt="" />
+                </div>
+                <h2 class="card-title">K. Accessories</h2>
+                <h3><span>25.00</span>TK</h3>
+              </div>
+            </div>
+
+            <!-- card three  -->
+            <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+              <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                <figure class="px-10 pt-10 pb-6">
+                  <img src="images/prod3.png" class="rounded-xl" />
+                </figure>
+              </div>
+              <div class="card-body items-center text-center">
+                <!-- star  -->
+                <div class="flex items-center gap-1">
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star1.png" alt="" />
+                  <img src="images/star2.png" alt="" />
+                </div>
+                <h2 class="card-title">Home Cooker</h2>
+                <h3><span>49.00 </span> TK</h3>
+              </div>
+            </div>
+          </div>
+          <!-- Sportswear -->
+          <div class="mt-28 gap-6">
+            <h2 class="text-4xl pb-6 font-semibold">Sportswear</h2>
+            <div class="flex flex-wrap flex-col lg:flex-row gap-6">
+              <!-- card one  -->
+              <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+                <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                  <figure class="px-10 pt-10 pb-6">
+                    <img src="images/prod4.png" class="rounded-xl" />
+                  </figure>
+                </div>
+                <div class="card-body items-center text-center">
+                  <!-- star  -->
+                  <div class="flex items-center gap-1">
+                    <img src="images/star1.png" alt="" />
+                    <img src="images/star1.png" alt="" />
+                    <img src="images/star2.png" alt="" /> 
+                    <img src="images/star2.png" alt="" />
+                    <img src="images/star2.png" alt="" />
+                  </div>
+                  <h2 class="card-title">Sports Back Cap</h2>
+                  <h3><span>49.00 </span>TK</h3>
+                </div>
+              </div>
+  
+              <!-- card two  -->
+              <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+                <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                  <figure class="px-10 pt-10 pb-6">
+                    <img src="images/prod5.png" class="rounded-xl" />
+                  </figure>
+                </div>
+                <div class="card-body items-center text-center">
+                  <!-- star  -->
+                  <div class="flex items-center gap-1">
+                    <img src="images/star1.png " alt="" />
+                    <img src="images/star1.png " alt="" />
+                    <img src="images/star1.png " alt="" />
+                    <img src="images/star1.png " alt="" />
+                    <img src="images/star2.png" alt="" />
+                  </div>
+                  <h2 class="card-title">Full Jersey Set</h2>
+                  <h3><span>69.00 </span>TK</h3>
+                </div>
+              </div>
+  
+              <!-- card three  -->
+              <div onclick="cardclickBtn(this)" class="card w-80 bg-base-100 shadow-xl">
+                <div class="bg-[#1111110D] w-[280px] mx-auto mt-6">
+                  <figure class="px-10 pt-10 pb-6">
+                    <img src="images/prod6.png" class="rounded-xl" />
+                  </figure>
+                </div>
+                <div class="card-body items-center text-center">
+                  <!-- star  -->
+                  <div class="flex items-center gap-1">
+                    <img src="images/star1.png" alt="" />
+                    <img src="images/star1.png" alt="" />
+                    <img src="images/star1.png" alt="" />
+                    <img src="images/star2.png" alt="" />
+                    <img src="images/star2.png" alt="" />
+                  </div>
+                  <h2 class="card-title">Sports cates</h2>
+                  <h3><span>159.00</span>TK</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <!-- side cart container  -->
+        <div class="mt-6 lg:mt-14">
+          <!-- cooupon  -->
+          <div class="w-[339px] lg:w-[342px]  p-5 bg-white shadow-lg">
+            <h2 class="p-5 text-2xl font-medium">Have coupon?</h2>
+            <div class="flex items-center lg:flex-row ">
+              <input id="aply-inpt" class="w-[300px] p-3 outline-none border-2" type="text" placeholder="Coupon code">
+              <button id="apply-btn" class="btn bg-[#E527B2] btn-primary"disabled>Apply</button>
+            </div>
+          </div>
+          <!-- pricing  -->
+          <div class="w-[342px] p-5 space-y-6 bg-white shadow-lg mt-6">
+            <ul id="pasName" class="text-2xl font-medium">
+              
+            </ul>
+            <hr class="w-[85%] border-2 mt-5">
+            <h3 class="text-2xl font-medium">Total price : <span id="get-total">0.00</span> TK</h3>
+            <h3 class="text-2xl font-medium">Discount : <span id="get-discount">0.00</span> TK</h3>
+            <h3 class="text-2xl font-medium">Total: <span id="final-total">0.00</span> Tk</h3>
+            <hr class="w-[85%] border-2 mt-5">
+            <button id="Purchase-btn" class="btn w-[300px] mt-8 text-white bg-[#E527B2]" disabled>Make Purchase</button>
+          </div>
+        </div>
+        <!-- side cart container end -->
+
+      </div>
+      <!-- main container card  end -->
+    </section>
+    <!-- card section end here  -->
+    <!-- modal section st here  -->
+    <div id="modal" class="hidden absolute top-[438%] left-[20%]  lg:top-[100%] lg:left-[36%]">
+      <div  class="w-[280px] lg:w-[380px] bg-[#ebebeb] shadow-lg  p-10 flex flex-col items-center space-y-3">
+          <img src="images/congo.png" alt="">
+          <h2 class="text-2xl lg:text-5xl">Congratulations</h2>
+          <p class="text-xl">Your Purchase the product</p>
+          <button id="home-btn" class="btn bg-[#E527B2] btn-primary">Go Home</button>
+      
+      </div>
+  </div>
+    <!-- modal section end here  -->
+
+    <!-- all js link here  -->
+    <script src="script.js"></script>
+  </body>
+</html>
